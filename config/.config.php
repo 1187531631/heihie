@@ -18,7 +18,7 @@ $System_Config['version']='1';	//仅当涉及【需要修改config以外的文�
 $System_Config['key'] = '1145141919810';						//!!! 瞎 jb 修改此key为随机字符串确保网站安全 !!!
 $System_Config['debug'] =  'false';								//正式环境请确保为 false
 $System_Config['appName'] = ' 破界';							//站点名称
-$System_Config['baseUrl'] = 'http://www.1024code.vip';					//站点地址
+$System_Config['baseUrl'] = 'https://www.1024code.vip';					//站点地址
 $System_Config['subUrl'] = $System_Config['baseUrl'].'/link/';	//订阅地址，如需和站点名称相同，请不要修改
 $System_Config['muKey'] = 'NimaQu';								//用于校验ss-go mu的请求，可以随意修改，但请保持前后端一致
 $System_Config['db_driver'] = 'mysql';							//数据库程序
@@ -38,12 +38,12 @@ $System_Config['mailgun_domain'] = '';
 $System_Config['mailgun_sender'] = '';
 
 # smtp
-$System_Config['smtp_host'] = 'smtp.qq.com';
-$System_Config['smtp_username'] = '1187531631@qq.com';
+$System_Config['smtp_host'] = 'smtp.gmail.com';
+$System_Config['smtp_username'] = 'pojievip@gmail.com';
 $System_Config['smtp_port'] = '465';
-$System_Config['smtp_name'] = '1187531631@qq.com';
-$System_Config['smtp_sender'] = '1187531631@qq.com';
-$System_Config['smtp_passsword'] = 'fuploxfafkovbadf';
+$System_Config['smtp_name'] = 'pojievip@gmail.com';
+$System_Config['smtp_sender'] = 'pojievip@gmail.com';
+$System_Config['smtp_passsword'] = 'Zhao@636261';
 $System_Config['smtp_ssl'] = 'true';
 
 # sendgrid
