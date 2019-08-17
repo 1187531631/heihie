@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-06-27 08:53:53
+/* Smarty version 3.1.34-dev-7, created on 2019-08-17 18:27:07
   from '/www/wwwroot/www.1024code.vip/resources/views/material/user/invite.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5d1413a1b11743_79610548',
+  'unifunc' => 'content_5d57d67bcac039_57796458',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5dd7973759805eb02208e5ddb629f6b411567d2c' => 
     array (
       0 => '/www/wwwroot/www.1024code.vip/resources/views/material/user/invite.tpl',
-      1 => 1559631017,
+      1 => 1566037702,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:user/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5d1413a1b11743_79610548 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d57d67bcac039_57796458 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:user/main.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -59,8 +59,7 @@ $_smarty_tpl->_subTemplateRender('file:user/main.tpl', $_smarty_tpl->cache_id, $
 						</div>
 					</div>
 
-					<?php if ($_smarty_tpl->tpl_vars['user']->value->class != 0) {?>
-
+					
 					<?php if ($_smarty_tpl->tpl_vars['user']->value->invite_num != -1) {?>
 					<div class="col-xx-12">
 						<div class="card margin-bottom-no">
@@ -82,15 +81,7 @@ $_smarty_tpl->_subTemplateRender('file:user/main.tpl', $_smarty_tpl->cache_id, $
 /auth/register?code=<?php echo $_smarty_tpl->tpl_vars['code']->value->code;?>
 ">点击复制</button>				
 										</div>
-										<div class="invite-link">
-											<input type="text" class="input form-control form-control-monospace cust-link" name="input2" readonly="" value="<?php echo $_smarty_tpl->tpl_vars['config']->value["baseUrl"];?>
-/#/auth/register?code=<?php echo $_smarty_tpl->tpl_vars['code']->value->code;?>
-">
-											<button class="copy-text btn btn-subscription" type="button" data-clipboard-text="<?php echo $_smarty_tpl->tpl_vars['config']->value["baseUrl"];?>
-/#/auth/register?code=<?php echo $_smarty_tpl->tpl_vars['code']->value->code;?>
-">点击复制</button>				
-										</div>
-									</div>
+																																																			</div>
 								</div>
 							</div>
 						</div>
@@ -143,22 +134,9 @@ $_smarty_tpl->_subTemplateRender('file:user/main.tpl', $_smarty_tpl->cache_id, $
 					</div>
 					<?php }?>
 
-                   	<?php } else { ?>
-
-                  	<div class="col-xx-12">
-						<div class="card margin-bottom-no">
-							<div class="card-main">
-								<div class="card-inner">
-                                 	<p class="card-heading">邀请链接</p>
-									<h3><?php echo $_smarty_tpl->tpl_vars['user']->value->user_name;?>
-，您不是VIP暂时无法使用邀请链接，<a href="/user/shop">成为VIP请点击这里</a></h3>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<?php }?>
-					<div class="col-xx-12">
+                   	
+                  																						                                 																																				
+										<div class="col-xx-12">
                         <div class="card">
 	                        <div class="card-main">
 		                        <div class="card-inner">

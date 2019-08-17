@@ -28,7 +28,7 @@
 						</div>
 					</div>
 
-					{if $user->class!=0}
+					{*{if $user->class!=0}*}
 
 					{if $user->invite_num!=-1}
 					<div class="col-xx-12">
@@ -46,10 +46,10 @@
 											<input type="text" class="input form-control form-control-monospace cust-link" name="input1" readonly="" value="{$config["baseUrl"]}/auth/register?code={$code->code}">
 											<button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$config["baseUrl"]}/auth/register?code={$code->code}">点击复制</button>				
 										</div>
-										<div class="invite-link">
-											<input type="text" class="input form-control form-control-monospace cust-link" name="input2" readonly="" value="{$config["baseUrl"]}/#/auth/register?code={$code->code}">
-											<button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$config["baseUrl"]}/#/auth/register?code={$code->code}">点击复制</button>				
-										</div>
+										{*<div class="invite-link">*}
+											{*<input type="text" class="input form-control form-control-monospace cust-link" name="input2" readonly="" value="{$config["baseUrl"]}/#/auth/register?code={$code->code}">*}
+											{*<button class="copy-text btn btn-subscription" type="button" data-clipboard-text="{$config["baseUrl"]}/#/auth/register?code={$code->code}">点击复制</button>				*}
+										{*</div>*}
 									</div>
 								</div>
 							</div>
@@ -100,20 +100,20 @@
 					</div>
 					{/if}
 
-                   	{else}
+                   	{*{else}*}
 
-                  	<div class="col-xx-12">
-						<div class="card margin-bottom-no">
-							<div class="card-main">
-								<div class="card-inner">
-                                 	<p class="card-heading">邀请链接</p>
-									<h3>{$user->user_name}，您不是VIP暂时无法使用邀请链接，<a href="/user/shop">成为VIP请点击这里</a></h3>
-								</div>
-							</div>
-						</div>
-					</div>
+                  	{*<div class="col-xx-12">*}
+						{*<div class="card margin-bottom-no">*}
+							{*<div class="card-main">*}
+								{*<div class="card-inner">*}
+                                 	{*<p class="card-heading">邀请链接</p>*}
+									{*<h3>{$user->user_name}，您不是VIP暂时无法使用邀请链接，<a href="/user/shop">成为VIP请点击这里</a></h3>*}
+								{*</div>*}
+							{*</div>*}
+						{*</div>*}
+					{*</div>*}
 
-					{/if}
+					{*{/if}*}
 					<div class="col-xx-12">
                         <div class="card">
 	                        <div class="card-main">
