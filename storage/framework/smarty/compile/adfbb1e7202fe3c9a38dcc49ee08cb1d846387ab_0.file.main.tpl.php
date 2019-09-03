@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-09-03 14:08:54
+/* Smarty version 3.1.34-dev-7, created on 2019-09-03 15:10:49
   from '/www/wwwroot/www.1024code.vip/resources/views/material/user/main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5d6e03765fe0b7_05500462',
+  'unifunc' => 'content_5d6e11f9384f44_14277581',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:mylivechat.tpl' => 1,
   ),
 ),false)) {
-function content_5d6e03765fe0b7_05500462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d6e11f9384f44_14277581 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
