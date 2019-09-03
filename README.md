@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 欢迎使用 SSPanel V3 魔改再次修改版
 
 **ss-panel-v3-mod**是一款专为 Shadowsocks/ShadowsocksR 设计的管理面板，再次感谢 ss-panel-v3-mod 的制作者，修改后的功能简介：
@@ -117,3 +118,6 @@ Wiki 已经启用，欢迎为此面板维护 wiki
 ## 免责声明
 
 本程序由 MIT License 授权。**不提供任何担保**。使用本程序即表明，您知情并同意：程序开发者不对此程序导致的任何服务中断、数据损失或任何少见未列出的事故负责。
+=======
+# panel-download
+>>>>>>> 98919d28f6ed35aa58256c37ba262ef64cdd8df5

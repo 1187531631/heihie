@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-06-26 17:18:25
+/* Smarty version 3.1.34-dev-7, created on 2019-09-03 14:08:54
   from '/www/wwwroot/www.1024code.vip/resources/views/material/user/main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5d133861390f65_97806863',
+  'unifunc' => 'content_5d6e03765fe0b7_05500462',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'adfbb1e7202fe3c9a38dcc49ee08cb1d846387ab' => 
     array (
       0 => '/www/wwwroot/www.1024code.vip/resources/views/material/user/main.tpl',
-      1 => 1559631017,
+      1 => 1567491251,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:mylivechat.tpl' => 1,
   ),
 ),false)) {
-function content_5d133861390f65_97806863 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d6e03765fe0b7_05500462 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -149,12 +149,7 @@ function content_5d133861390f65_97806863 (Smarty_Internal_Template $_smarty_tpl)
 								</a>
 							</li>
 
-							<li>
-								<a href="/user/relay">
-									<i class="icon icon-lg">compare_arrows</i>&nbsp;中转规则
-								</a>
-							</li>
-
+																																							
 							<li>
 								<a href="/user/lookingglass">
 									<i class="icon icon-lg">visibility</i>&nbsp;延迟检测
@@ -174,12 +169,7 @@ function content_5d133861390f65_97806863 (Smarty_Internal_Template $_smarty_tpl)
 							</li>
 						</ul>
 
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审计</a>
-						<ul class="menu-collapse collapse in" id="ui_menu_detect">
-							<li><a href="/user/detect"><i class="icon icon-lg">account_balance</i>&nbsp;审计规则</a></li>
-							<li><a href="/user/detect/log"><i class="icon icon-lg">assignment_late</i>&nbsp;审计记录</a></li>
-						</ul>
-
+																																
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_help">商店</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_help">
                           	<li>
